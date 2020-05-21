@@ -32,9 +32,9 @@
         "phpcs": "phpcs --standard=./phpcs.xml ."
     },
     "autoload": {
-      "files": [
-        "inc/mantle/ServiceProvider.php"
-      ]
+      "psr-4": {
+        "AI_Logger\\Mantle\\": "inc/mantle/"
+      }
     },
     "extra": {
       "mantle": {
