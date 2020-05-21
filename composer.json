@@ -31,6 +31,11 @@
     "scripts": {
         "phpcs": "phpcs --standard=./phpcs.xml ."
     },
+    "autoload": {
+      "files": [
+        "inc/mantle/ServiceProvider.php"
+      ]
+    },
     "extra": {
       "mantle": {
           "providers": [
